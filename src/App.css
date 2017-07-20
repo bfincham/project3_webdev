@@ -1,0 +1,265 @@
+.navigation {
+  background: url(images/Swim.jpg) 100% no-repeat;
+  background-size: cover;
+  flex-grow:1;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+  flex-direction:column;
+  text-align:center;
+
+}
+
+#header h1{
+  font-size: 30px;
+  font-color: black;
+  font-weight: 400;
+  font-family: 'Quicksand' , sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+#header h2{
+  font-color: black;
+  font-weight: 400;
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+  color: orange;
+  position: relative;
+  top: -150px;
+}
+
+h4 {
+  text-align: left;
+  color: crimson;
+  position: relative;
+  top: -160px;
+  left: 50px;
+}
+.navigation ul{
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+
+.navigation ul {
+  height:100px;
+  background-color: rgba(0,0,0,.5);
+  border-top: solid  10px #DC0025;
+  text-align:right;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+
+
+
+}
+.navigation li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+
+}
+#welcome p {
+  margin-right: 20%;
+  margin-left: 15%;
+  align-content: center;
+  position: relative;
+  top: -300px;
+
+
+}
+#welcome h2 {
+  font-color: black;
+  font-weight: 400;
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 15%;
+  position: relative;
+  top: -350px;
+
+}
+
+
+#sidebar {
+  float: right;
+  width:400px;
+  margin: 0 0 10px 10px;
+
+
+
+}
+
+#logo {
+  content: url(images/batc-logo.jpeg);
+  height: 180px;
+  width: 200px;
+  padding-top: 30%;
+  position: relative;
+  top: -100px;
+}
+
+#image {
+  content: url(images/Triathlon-521268998.jpg);
+  height: 340px;
+  width:360px;
+  position: relative;
+  top: -200px;
+}
+#group {
+  content: url(images/batc_group.jpg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 30%;
+  width: 1500px;
+  position: relative;
+  top: -400px;
+
+
+}
+
+#president {
+  content: url("images/president_batc.jpg");
+  display: inline-block;
+  padding: 1em;
+  text-align: center;
+  height: 200px;
+  width: 250px;
+
+}
+.about p {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  align-content: center;
+  position: relative;
+  align-items: center;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.about p:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.about h2 {
+  font-color: black;
+  font-weight: 400;
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30%;
+}
+.about h3 {
+  color: black;
+  font-weight: 400;
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.history  {
+  float: left;
+}
+#ironman {
+  background: url(images/ironmanstory3.jpg) 100% no-repeat;
+  flex-grow:1;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width: 1220px;
+  flex-direction:column;
+  text-align:center;
+  margin-top: 30%;
+  width: 1500px;
+  position: relative;
+  top: -450px;
+
+
+
+}
+#ironman h1 {
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  margin-left: 20%;
+
+}
+.history p {
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  position: relative;
+  top: 1000px;
+
+}
+
+.history h2 {
+  position: relative;
+  top: 950px;
+}
+
+#finish {
+  content: url(images/finish.jpg);
+  float: right;
+  position: relative;
+  top: -400px;
+  width: 700px;
+  height: 500px;
+}
+
+.staff-image {
+  max-width: 200px;
+  max-height: 150px;
+}
+.staff-card {
+  display: inline-block;
+  border: 5px solid black;
+  padding: 1em;
+  text-align: center;
+
+}
+.bio {
+  position: relative;
+  top: 250px;
+}
+.events-card ul {
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+  margin: .5em;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+
+}
+
+.events {
+  position: relative;
+  top: 400px;
+
+
+}
+
+
